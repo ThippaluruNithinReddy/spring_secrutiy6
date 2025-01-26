@@ -8,4 +8,5 @@ import spring.security.entity.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer>{
 
+//	User findUser(user);
 }
